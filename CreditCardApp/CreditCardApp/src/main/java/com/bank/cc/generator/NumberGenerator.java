@@ -1,8 +1,8 @@
 package com.bank.cc.generator;
 
-public class NumGenerator {
+public class NumberGenerator {
 
-	private NumGenerator() {
+	private NumberGenerator() {
 		throw new AssertionError("Instantiation now allowed");
 	}
 

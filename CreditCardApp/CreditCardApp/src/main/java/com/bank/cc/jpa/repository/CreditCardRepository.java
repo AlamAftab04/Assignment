@@ -11,7 +11,7 @@ import com.bank.cc.dao.model.CreditCardEntity;
 
 @Repository
 @Transactional
-public interface CreditCardRepo extends CrudRepository<CreditCardEntity, Long> {
+public interface CreditCardRepository extends CrudRepository<CreditCardEntity, Long> {
 	
 	public List<CreditCardEntity> findByCardNumberAndExpiryMonthAndExpiryYear(long cardNumber,int expiryMonth, int expiryYear);
 }

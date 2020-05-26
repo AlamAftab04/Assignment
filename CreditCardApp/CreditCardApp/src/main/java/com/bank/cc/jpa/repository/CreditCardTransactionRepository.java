@@ -9,6 +9,6 @@ import com.bank.cc.dao.model.CreditCardTransactionEntity;
 
 @Repository
 @Transactional
-public interface CreditCardTransactionRepo extends CrudRepository<CreditCardTransactionEntity, Long> {
+public interface CreditCardTransactionRepository extends CrudRepository<CreditCardTransactionEntity, Long> {
 
 }

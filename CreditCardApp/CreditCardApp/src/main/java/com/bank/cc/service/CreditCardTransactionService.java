@@ -11,8 +11,8 @@ import com.bank.cc.builder.CreditCardTransactionBuilder;
 import com.bank.cc.dao.model.BalanceEntity;
 import com.bank.cc.dao.model.CreditCardEntity;
 import com.bank.cc.exception.CreditCardTransactionException;
-import com.bank.cc.jpa.repository.CreditCardRepo;
-import com.bank.cc.jpa.repository.CreditCardTransactionRepo;
+import com.bank.cc.jpa.repository.CreditCardRepository;
+import com.bank.cc.jpa.repository.CreditCardTransactionRepository;
 import com.bank.cc.model.CreditCard;
 import com.bank.cc.model.CreditCardOperation;
 import com.bank.cc.model.CreditCardTransactionRequest;
@@ -27,10 +27,10 @@ import lombok.extern.slf4j.Slf4j;
 public class CreditCardTransactionService {
 
 	@Autowired
-	private CreditCardRepo creditCardRepo;
+	private CreditCardRepository creditCardRepo;
 
 	@Autowired
-	private CreditCardTransactionRepo creditCardTransactionRepo;
+	private CreditCardTransactionRepository creditCardTransactionRepo;
 
 	@Autowired
 	private CreditCardTransactionBuilder creditCardTransactionBuilder;

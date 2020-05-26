@@ -9,10 +9,10 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @SpringBootApplication
 @EnableSwagger2
 @EnableJpaRepositories
-public class CreditcardApplication {
+public class CreditcardAppApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CreditcardApplication.class, args);
+		SpringApplication.run(CreditcardAppApplication.class, args);
 
 	}
 
